@@ -1,0 +1,119 @@
+
+html,body
+{
+  height: 100%;
+  padding: 0px;  
+}
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+    background-image: url(imges/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -webkit-box-size: cover;
+    background-position: center center;
+    font-weight: bold;
+
+
+}
+
+.fly-in-text{
+  list-style-type:none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(80%);
+
+}
+.fly-in-text li {
+  display: inline-block;
+  margin-right: 1px;
+  font-family: 'poppins','sans-serif';
+  font-weight: 300;
+  font-size: 30px;
+  color: rgba(12, 252, 252, 0.89);
+  opacity:1;
+  transition:all 2s ease;
+
+}
+.fly-in-text li:last-child{
+  margin-right: 0;
+}
+.fly-in-text li{
+  opacity: 1;
+}
+.fly-in-text.hidden li:nth-child(1) {
+  transform: translateX(-200px) translateY(-200px);
+}
+
+.fly-in-text.hidden li:nth-child(2) {
+  transform: translateX(20px) translateY(100px);
+}
+
+.fly-in-text.hidden li:nth-child(3) {
+  transform: translateX(1500px) translateY(-80px);
+}
+.fly-in-text.hidden li :nth-child(4)
+{
+  transform: translateX(10px) translateY(-200px);
+  
+}
+.fly-in-text.hidden li :nth-child(5)
+{
+  transform: translateX(-100px) translateY(-90px);
+  
+}
+.fly-in-text.hidden li :nth-child(6)
+{
+  transform: translateX(-100px) translateY(-10px);
+ 
+}
+.fly-in-text.hidden li :nth-child(7)
+{
+  transform: translateX(200px) translateY(90px);
+ 
+}
+
+.fly-in-text.hidden li :nth-child(8)
+{
+  transform: translateX(10px) translateY(-200px);
+ 
+}
+.fly-in-text.hidden li :nth-child(9)
+{
+  transform: translateX(100px) translateY(-80px);
+ 
+}
+.fly-in-text.hidden li :nth-child(10)
+{
+  transform: translateX(100px) translateY(800px);
+ 
+}
+
+
+
+
+.Items{
+  padding-left: 10px;
+  list-style-type: none;
+  font-size: large;
+display: flex;
+justify-content: space-between;
+}
+
+.Items .cocktail:hover{
+  background-color: rgb(122, 111, 96);
+
+}
+
+.Items .Fast-Foods:hover{
+  background-color: rgb(143, 131, 116);
+}
+.Items .Milkshakes:hover{
+  background-color: rgb(143, 131, 116);
+}
