@@ -11,7 +11,7 @@ html,body
 }
 
 .header{
-    background-image: url(imges/background.jpg);
+    background-image: url(images/background.jpg);
     background-repeat: none;
     background-size: cover;
     -webkit-background-size:cover;
